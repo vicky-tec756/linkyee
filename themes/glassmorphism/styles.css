@@ -82,6 +82,12 @@ a { color: inherit; text-decoration: none; }
   z-index: 0;
   opacity: 0.55;
   pointer-events: none;
+  transform: translate3d(
+    calc((var(--pointer-x) - 50%) * 0.12),
+    calc((var(--pointer-y) - 50%) * 0.12),
+    0
+  );
+  transition: transform 0.35s ease-out;
 }
 
 .bg-shape-1 { width: 380px; height: 380px; background: var(--shape-1); top: -80px; left: -100px; }
