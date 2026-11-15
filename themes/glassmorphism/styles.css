@@ -237,7 +237,9 @@ a { color: inherit; text-decoration: none; }
 
 .icon-button:hover,
 .icon-button:focus-visible {
-  background: var(--hover-bg);
+  background: color-mix(in srgb, var(--social-accent) 28%, var(--hover-bg));
+  color: var(--social-accent);
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--social-accent) 35%, transparent);
   transform: translateY(-2px);
   outline: none;
 }

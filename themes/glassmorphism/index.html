@@ -59,7 +59,7 @@
     <nav class="links" aria-label="{{ ui.primary_links | default: 'Primary links' }}">
       {% for item in links %}
         {% assign link = item.link %}
-        <a href="{{ link.url }}" target="{{ link.target }}" class="card link-button{% if link.latest %} link-latest{% endif %}" alt="{{ link.alt }}" title="{{ link.title }}">
+        <a href="{{ link.url }}" target="{{ link.target }}" class="card link-button{% if link.latest %} link-latest{% endif %}" style="--link-accent: {{ link.accent | default: 'var(--gradient-b)' }};" alt="{{ link.alt }}" title="{{ link.title }}">
           {% if link.latest %}<span class="link-latest-badge" aria-hidden="true">{{ ui.latest | default: 'LATEST' }}</span>{% endif %}
           <span class="link-icon" aria-hidden="true"><i class="{{ link.icon }}"></i></span>
           <span class="link-text">{{ link.text }}</span>
@@ -71,7 +71,7 @@
       <div class="button-group">
         {% for item in socials %}
           {% assign social = item.social %}
-          <a href="{{ social.url }}" title="{{ social.title }}" target="{{ social.target }}" class="icon-button" alt="{{ social.alt }}">
+          <a href="{{ social.url }}" title="{{ social.title }}" target="{{ social.target }}" class="icon-button" style="--social-accent: {{ social.accent | default: 'var(--gradient-b)' }};" alt="{{ social.alt }}">
             <i class="{{ social.icon }}"></i>
           </a>
         {% endfor %}

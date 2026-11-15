@@ -18,6 +18,7 @@ tagline: >-
 links:
   - link:
       icon: "fa-solid fa-globe"
+      accent: "#8b5cf6"
       text: "Portfolio"
       url: "https://vickyrajiit.vercel.app/"
       alt: "Vicky Raj's portfolio"
@@ -25,6 +26,7 @@ links:
       target: "_blank"
   - link:
       icon: "fa-brands fa-linkedin"
+      accent: "#0a66c2"
       text: "LinkedIn"
       url: "https://www.linkedin.com/in/vicky-raj-090760282/"
       alt: "Vicky Raj on LinkedIn"
@@ -32,6 +34,7 @@ links:
       target: "_blank"
   - link:
       icon: "fa-brands fa-github"
+      accent: "#f0f6fc"
       text: "GitHub"
       url: "https://github.com/vicky-tec"
       alt: "Vicky Raj on GitHub"
@@ -39,6 +42,7 @@ links:
       target: "_blank"
   - link:
       icon: "fa-brands fa-kaggle"
+      accent: "#20beff"
       text: "Kaggle"
       url: "https://www.kaggle.com/vickyrazzz"
       alt: "Vicky Raj on Kaggle"
@@ -46,6 +50,7 @@ links:
       target: "_blank"
   - link:
       icon: "fa-solid fa-graduation-cap"
+      accent: "#f59e0b"
       text: "IIT Patna Official Website"
       url: "https://www.iitp.ac.in/"
       alt: "B.Sc. Computer Science and Data Analytics at IIT Patna"
@@ -55,24 +60,28 @@ links:
 socials:
   - social:
       icon: "fa-brands fa-linkedin"
+      accent: "#0a66c2"
       url: "https://www.linkedin.com/in/vicky-raj-090760282/"
       title: "Vicky Raj's LinkedIn"
       alt: "Vicky Raj's LinkedIn"
       target: "_blank"
   - social:
       icon: "fa-brands fa-github"
+      accent: "#f0f6fc"
       url: "https://github.com/vicky-tec"
       title: "Vicky Raj's GitHub"
       alt: "Vicky Raj's GitHub"
       target: "_blank"
   - social:
       icon: "fa-solid fa-globe"
+      accent: "#8b5cf6"
       url: "https://vickyrajiit.vercel.app/"
       title: "Vicky Raj's portfolio"
       alt: "Vicky Raj's portfolio"
       target: "_blank"
   - social:
       icon: "fa-brands fa-kaggle"
+      accent: "#20beff"
       url: "https://www.kaggle.com/vickyrazzz"
       title: "Vicky Raj's Kaggle"
       alt: "Vicky Raj's Kaggle"
